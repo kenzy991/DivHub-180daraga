@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes arrow {
+  0% {
+    margin-left: -300px;
+}
+100% {
+    margin-left: 300px;
+}
+}
+
+.animate-arrow {
+  animation-name: arrow;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-delay: -1s;
+  animation-direction: alternate;
+}
+
+@keyframes arrowrev {
+  0% {
+    margin-left: 170px;
+}
+100% {
+    margin-right: 150px;
+}
+}
+
+.animate-arrow-rev {
+  animation-name: arrowrev;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-delay: -1s;
+  animation-direction: alternate;
+}

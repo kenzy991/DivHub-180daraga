@@ -1,0 +1,9 @@
+@keyframes arrow {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(20px); } /* يتحرك للأمام */
+    100% { transform: translateX(0); } /* يعود للخلف */
+}
+
+.animate-arrow {
+    animation: arrow 1.5s infinite alternate ease-in-out;
+}
